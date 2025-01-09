@@ -7,13 +7,13 @@ from sqlalchemy import create_engine
 # 创建一个包含一行数据的 DataFrame
 data = {
     'stock_name': ['永辉超市'],
-    'trade_date': ['2025-01-08'],
-    'open': [5.95],
-    'high': [6.09],
-    'low': [5.74],
-    'close': [5.94],
-    'pct_chg': [-0.5025],
-    'vol': [5049431.55]
+    'trade_date': ['2025-01-09'],
+    'open': [5.85],
+    'high': [6.03],
+    'low': [5.81],
+    'close': [5.89],
+    'pct_chg': [-0.8418],
+    'vol': [4154683.26]
 }
 df = pd.DataFrame(data)
 
